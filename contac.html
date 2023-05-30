@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Mi primer web</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container-nav">
+            <nav class="navbar" role="navigation" >
+                <a href="index.html" class="brand">Mi página web</a>
+                <ul class="nav-links">
+                  <li><a href="index.html">my pagina web</a></li>
+                  <li><a href="service.html">servicio</a></li>
+                  <li><a href="contac.html">contacto</a></li>
+                  <li><a href="acercade.html">about</a></li>
+                </ul>
+              </nav>  
+            <button class="button-menu-toggle"> Menu </button>
+        </div>  
+        <div class="continer">
+            <h1>Contacto</h1>
+            <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
+            <form>
+            <!-- Agrega aquí los campos del formulario -->
+            </form>
+            <form id="myForm">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Enviar</button>
+              </form>  
+        </div>
+        <button onclick="showAlert()">¡haga clic aca!</button>
+        <script src="script.js"></script>
+    </body>
+</html>
