@@ -103,7 +103,16 @@ img{
   height: 300px;
   width: 400px;
 }
+.greating{
+  text-align: center;
+}
 video{
   justify-content: center;
   display: flex;
+}
+.pie{
+  background-color:red;
+  display: flex;
+  padding: 10px;
+  height: 50px
 }
